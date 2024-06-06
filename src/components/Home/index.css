@@ -1,0 +1,48 @@
+/* Write your CSS here */
+
+.outerCon {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-height: 768px) {
+  .outerCon {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}
+
+.heading {
+  color: white;
+}
+.logo {
+  height: 50px;
+  width: 30px;
+  margin-right: 10px;
+}
+.logoCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.teamsCon {
+  display: flex;
+}
+.listCon {
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.loaderStyle {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

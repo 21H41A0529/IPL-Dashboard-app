@@ -1,0 +1,21 @@
+/* Write your CSS here */
+
+.listItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  border-radius: 5px;
+  border-width: 5px;
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  padding: 15px;
+  box-shadow: 4px 4px 4px white;
+}
+.teamImage {
+  height: 200px;
+  width: 200px;
+  margin-right: 10px;
+}

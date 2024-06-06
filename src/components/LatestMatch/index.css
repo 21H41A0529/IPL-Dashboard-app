@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.latestCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 80%;
+}
+.detailsCon {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  border-radius: 5px;
+  width: 100%;
+}
+.text {
+  margin-right: auto;
+}
+.b {
+  margin-bottom: 0px;
+}
+.countryDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.logoOfTheTeam {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+
+.firstInnings {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
